@@ -2,7 +2,7 @@
 
 
 
-Brief description of what your project does.
+Project Description
 
 The daily ToDo List tracker program helps users to track daily tasks and rewards them with encouraging messages based on their progress.
 
@@ -11,15 +11,15 @@ The daily ToDo List tracker program helps users to track daily tasks and rewards
 
 
 ## Table of Contents
-- [Python Task Tracker application](#python-task-tracker-application)
+  - [Python Task Tracker application](#python-task-tracker-application)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
   - [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
   - [Usage](#usage)
   - [API Reference](#api-reference)
-    - [`GET /api/items`](#get-apiitems)
+  - [`GET /api/items`](#get-apiitems)
   - [Contributing](#contributing)
   - [Testing](#testing)
   - [Deployment](#deployment)
@@ -28,89 +28,83 @@ The daily ToDo List tracker program helps users to track daily tasks and rewards
   - [Acknowledgments](#acknowledgments)
 
 ## Features
-- Key feature 1
-- Key feature 2
-- Key feature 3
+- Request the user to input their complete name for identification purposes. 
+- Monitor and record the advancement of tasks that have been scheduled. 
+- Evaluate the completion status of predefined tasks within the system. 
+- Determine the percentage of completed tasks relative to the total number of tasks. 
+- Present motivational messages to users based on their current task completion status
+
 
 ## Getting Started
-Instructions on setting up your project locally.
+To develop, test/debug, and run python applications locally, you will install
+VS Code IDE, and Python program
 
 ### Prerequisites
-What things you need to install and how to install them:
-```bash
-npm install npm@latest -g
-```
-
+- Python Program
+- Microsoft VS Code IDE (Integrated Development Environment)
+- Python Extension Pack
 
 ### Installation
-1. Clone the repo
-   ```bash
-   git clone https://github.com/username/project.git
-   ```
-2. Install dependencies
-   ```bash
-   npm install
-   ```
-3. Configure environment variables
-   ```bash
-   cp .env.example .env
-   ```
+1. Download and Install Python Program:
+  https://www.python.org/downloads/
+
+2. Download and Install Microsoft VS Code
+   https://code.visualstudio.com/download
+
+3. Install Python Extension Pack inside your VS Code:
+   Follow the following 4 steps to install Python Extension Pack by Don Jayamanne
+   ![alt text](image-1.png)
+   
+ 
 
 ## Usage
-Show examples of how to use your project:
+The python task tracker application can be run either using Command Line Interface (CLI) or VS Code IDE terminal. It is an interactive application where user's responoses are expected.
 
-```javascript
-const project = require('project');
-project.doAwesomeThing();
-```
+  I) Run the application on command line:
+- $ python main.py
+  
+  ![alt text](image-2.png)
 
-## API Reference
-If your project has an API, describe its endpoints here:
 
-### `GET /api/items`
-Returns all items.
+II) Run the application on VS Code IDE  (GUI):
 
-**Parameters:**
-- `limit` (optional): number of items to return
+![alt text](image-3.png)
 
-**Response:**
-```json
-{
-    "items": [
-        {
-            "id": 1,
-            "name": "Item 1"
-        }
-    ]
-}
-```
 
-## Contributing
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+## Contributing - individual project
+Purpose: learning git common features
+- Used SSH to link both local git repo to remote GitHub accoutn
+- Create a new repository on github called python-task-tracker
+
+1. Clone the Project ('git clone git@github.com:macdit3/python-task-tracker.git')
+2. Open command Line interface (cmd) inside python-task-tracker ('code .') to open the project in VS Code IDE
+3. Check status of the current project directory ('git status  ')
+4. Commit your Changes (`git commit -m 'adding new changes to local git'`)
+5. Push changes to remote repo (`git push git@github.com:macdit3/python-task-tracker.git`)
+
 
 ## Testing
-Explain how to run the automated tests:
+Testing the 3 required conditions:
+# Testing condition where all scheduled tasks are done.
+![alt text](image-4.png)
 
-```bash
-npm test
-```
+# Testing condition where half of the scheduled tasks are done.
+ ![alt text](image-5.png)
+
+# Testing condition where all scheduled tasks are done.
+![alt text](image-6.png)
 
 ## Deployment
-Add additional notes about how to deploy this on a live system.
+The application will be deployed online for live online to public
 
 ## Built With
-* [Framework/Library 1](link) - Description
-* [Framework/Library 2](link) - Description
-* [Framework/Library 3](link) - Description
+* In this project, non of the Python Framework in used to built this temrinal app
+* In the future, one of the Python Framework will be used with additional features.
+
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is considered to be open source to anyone to use.
 
 ## Acknowledgments
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+*  Created by Mr. Macuei Mathiang 
+* Part of the MA Workforce IT Development Projects

@@ -1,10 +1,11 @@
-# daily_todo_list_tracker.py
+# main.py
+#To Do List Tracker app
 '''
 The daily ToDo List tracker program helps users to track daily tasks and 
 rewards them with encouraging messages based on their progress.
 '''
 
-# Prompt the user for their full name
+# Prompt the user for the full name
 full_name = input("Enter your full name: ")
 
 # Initialize tasks
