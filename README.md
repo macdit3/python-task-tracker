@@ -6,22 +6,23 @@ Project Description
 
 The daily ToDo List tracker program helps users to track daily tasks and rewards them with encouraging messages based on their progress.
 
-![alt text](image.png)
+![alt text](images/image.png)
 
 
 
 ## Table of Contents
-  - [Python Task Tracker application](#python-task-tracker-application)
+- [Python Task Tracker application](#python-task-tracker-application)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
   - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
   - [Usage](#usage)
-  - [API Reference](#api-reference)
-  - [`GET /api/items`](#get-apiitems)
-  - [Contributing](#contributing)
+  - [Contributing - individual project](#contributing---individual-project)
   - [Testing](#testing)
+- [Testing condition where all scheduled tasks are done.](#testing-condition-where-all-scheduled-tasks-are-done)
+- [Testing condition where half of the scheduled tasks are done.](#testing-condition-where-half-of-the-scheduled-tasks-are-done)
+- [Testing condition where all scheduled tasks are done.](#testing-condition-where-all-scheduled-tasks-are-done-1)
   - [Deployment](#deployment)
   - [Built With](#built-with)
   - [License](#license)
@@ -53,7 +54,7 @@ VS Code IDE, and Python program
 
 3. Install Python Extension Pack inside your VS Code:
    Follow the following 4 steps to install Python Extension Pack by Don Jayamanne
-   ![alt text](image-1.png)
+   ![alt text](images/image-1.png)
    
  
 
@@ -63,12 +64,12 @@ The python task tracker application can be run either using Command Line Interfa
   I) Run the application on command line:
 - $ python main.py
   
-  ![alt text](image-2.png)
+  ![alt text](images/image-2.png)
 
 
 II) Run the application on VS Code IDE  (GUI):
 
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 
 ## Contributing - individual project
@@ -86,13 +87,13 @@ Purpose: learning git common features
 ## Testing
 Testing the 3 required conditions:
 # Testing condition where all scheduled tasks are done.
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
 # Testing condition where half of the scheduled tasks are done.
- ![alt text](image-5.png)
+ ![alt text](images/image-5.png)
 
 # Testing condition where all scheduled tasks are done.
-![alt text](image-6.png)
+![alt text](images/image-6.png)
 
 ## Deployment
 The application will be deployed online for live online to public
@@ -107,4 +108,5 @@ This project is considered to be open source to anyone to use.
 
 ## Acknowledgments
 *  Created by Mr. Macuei Mathiang 
-* Part of the MA Workforce IT Development Projects
+* This project is part of the MA Workforce IT Development Trianing 
+* Date 02/23/2025
